@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
     <title>IMC</title>
 </head>
 
 <body>
-    <div>ITEM 1</div>
-    <div class="flex flex-column">
-        <div>ITEM 2.1</div>
-        <div>ITEM 2.2</div>
-        <div>ITEM 2.3</div>
+    <div id="container">
+        <div id="formulario">
+            <h2>Cálculo de IMC</h2>
+            <form action="resultado.html" method="get"></form>
+            <input class="input-form" type="text" name="altura" id="altura" placeholder="Altura" min="3" maxlength="30">
+            <input class="input-form" type="text" name="peso" id="peso" placeholder="Peso">
+            <input class="input-form" type="text" name="sexo" id="sexo" placeholder="Sexo"><br>
+            <input type="checkbox" name="chk-idade" id="chk-idade"><span id="texto-chk-idade">Eu tenho 65 anos ou
+                mais</span>
+            <input class="input-form" type="submit" value="Calcular meu IMC">
+            <a id="explicacao-calculo" href="calculo-imc.html">Entenda o cálculo</a>
+        </div>
     </div>
-    <div>
-        <input class="input" type="text" />
-    </div>
-    <div>ITEM 4</div>
-    <div>ITEM 5</div>
-    <div>ITEM 6</div>
 </body>
-
 </html>
