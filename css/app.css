@@ -329,3 +329,44 @@ tbody > tr:nth-child(3) > td.data-tabela
   
     
 }
+
+@media screen and (max-width: 400px) {
+    
+    #logo-imagem-resultado
+{
+    height: 70px;
+    width: 70px;
+    margin-bottom: -10px;
+    
+}
+
+#campo-texto
+{
+    margin-left: -10px;
+}
+
+#campo-texto h2
+{
+    font-size: 16px;
+    
+}
+
+#campo-resultado
+{
+    height: 250px;
+    width: 230px;
+    
+}
+
+#campo-texto span
+{
+    font-size: 10px;
+}
+
+#campo-texto a
+{
+    height: 51px;
+    width: 230px;
+    font-size: 12px;
+}
+}
